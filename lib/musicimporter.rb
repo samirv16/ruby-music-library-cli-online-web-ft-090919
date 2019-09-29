@@ -7,7 +7,7 @@ class MusicImporter
   end 
   
   def files
-    file_check = Dir.entries(@path).select { |files| files.include?(mp3) }
+    file_check = Dir.entries(@path).select { |files| files.include?("mp3") }
   end
   
 end
