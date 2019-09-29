@@ -14,7 +14,11 @@ class MusicLibraryController
     puts "Welcome to your music library!"
     
     input = gets.chomp
+    end
   end
+  
+  
+  
 end
 
 # 
