@@ -7,7 +7,7 @@ class MusicImporter
   end 
   
   def files
-    file_check = Dir.entries(@path).collect { |files| files
+    file_check = Dir.entries(@path).select { |files| files 
   end
   
 end
