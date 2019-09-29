@@ -1,5 +1,5 @@
 module Concerns::Findable
   
-  def 
+  def self.find_by_name
   
 end
