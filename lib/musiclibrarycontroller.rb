@@ -8,10 +8,14 @@ class MusicLibraryController
   
   def call
     
-    input
+    input = ""
+    
+    while input != "exit"
+    puts "Welcome to your music library!"
+    puts 
 end
 
-# "Welcome to your music library!"
+# 
 # ("To list all of your songs, enter 'list songs'."
 # "To list all of the artists in your library, enter 'list artists'."
 # "To list all of the genres in your library, enter 'list genres'."
