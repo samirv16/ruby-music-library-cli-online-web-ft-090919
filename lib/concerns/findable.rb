@@ -5,7 +5,7 @@ module Concerns::Findable
   end
   
   def find_or_create_by_name(name)
-    self.all.detect { |element| element.name == name } || self.new
+    self.all.detect { |element| element.name == name } || self.new(name)
   end
   
 end
