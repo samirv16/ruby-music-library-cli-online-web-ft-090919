@@ -55,6 +55,7 @@ class Song
      song = Song.find_or_create_by_name(name)
      artist = Artist.find_or_create_by_name(name)
      genre = Genre.find_or_create_by_name(name)
+     song.artist = artist 
      end
   
 end
