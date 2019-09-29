@@ -34,7 +34,7 @@ class Song
         artist.add_song(self)
     end
  
-  def genre=(genre)
+    def genre=(genre)
         @genre = genre 
        genre.songs << self unless genre.songs.include?(self)
     end
@@ -49,6 +49,6 @@ class Song
     
     def self.new_from_filename(filename)
      file = filename.split(" - ")[1]
-       end
+    end
   
 end
