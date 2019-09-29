@@ -12,7 +12,6 @@ class MusicLibraryController
     
     while input != "exit"
     puts "Welcome to your music library!"
-    puts 
 end
 
 # 
