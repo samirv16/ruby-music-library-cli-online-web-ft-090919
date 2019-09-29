@@ -7,7 +7,7 @@ class MusicImporter
   end 
   
   def files
-    
+    file_check = 
   end
   
 end
