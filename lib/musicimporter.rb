@@ -7,7 +7,7 @@ class MusicImporter
   end 
   
   def files
-    file_check = 
+    file_check = Dir.entries(@path)
   end
   
 end
