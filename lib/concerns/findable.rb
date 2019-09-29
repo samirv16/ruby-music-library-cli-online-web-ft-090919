@@ -8,4 +8,6 @@ module Concerns::Findable
     self.find_by_name(name) || self.new(name)
   end
   
+  
+  
 end
