@@ -66,7 +66,7 @@ class MusicLibraryController
     list = artist.songs.sort_by { |song| song.name }
     list.each.with_index(1) { |song, i|
     puts "#{i}. #{song.name} - #{song.genre.name}"
-    end 
+     
   end
   
   
