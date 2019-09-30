@@ -61,8 +61,8 @@ class MusicLibraryController
     puts "Please enter the name of an artist:"
     input = gets.chomp
     
-    list_artist
-    
+    if Artist.all.find { |x| x.name == input |
+    artist = Artist.all.find?()
   end 
   
   
