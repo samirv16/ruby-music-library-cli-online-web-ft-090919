@@ -62,7 +62,8 @@ class MusicLibraryController
     input = gets.chomp
     
     if Artist.all.find { |x| x.name == input |
-    artist = Artist.all.find?()
+    artist = Artist.all.find { |x| x.name == input } 
+    list = 
   end 
   
   
